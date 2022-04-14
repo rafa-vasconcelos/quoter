@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: 'Cormorant Garamond','Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;  
+  background-color: #1c1d1f;
+  color: #fafafef6;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+nav {  
+  font-size: 2.5rem;
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+nav>h1 {
+  display: flex;
+  justify-content: center;
+  font-size: 8rem;
+  font-style: normal;
+}
+
+nav>h6 {
+  font-size: 1.7rem;
+}
+
+.quote-block{
+  margin-top: 80px;
+  width: 1000px;
+  height: 200px;
+  font-style: italic;  
+  font-size: 2.5rem;
+  /* border: 1px solid white; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;  
+  /* gap: 20%; */
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  text-align: center;
+  /* height: 150px; */
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  /* align-content: flex-end; */
+  align-self: flex-end;
+  font-style: normal;
+  font-size: 2rem;
+  margin-top: 15px;
+  padding-right: 30px;
+}
+
+button {
+  width: 20vw;
+  height: 10vh;
+  background-color: fafafef6;
+  font-family: inherit;
+  font-weight: normal;
+  font-size: 1.8rem;
+  font-style: normal;
+  border-radius: 5px;
+  border-style: none;
+}
+
+
+/* *:not(path):not(g) {
+  color: hsla(210, 100%, 100%, 0.9) !important;
+  background: hsla(210, 100%, 50%, 0.5) !important;
+  outline: solid 0.25rem hsla(210, 100%, 100%, 0.5) !important;
+
+  box-shadow: none !important;
+} */
