@@ -1,4 +1,4 @@
-const data = [{
+const data = [/* {
     quote: `Existem mais coisas suscetíveis 
     de nos assustar do que existem de nos derrotar; sofremos 
     mais na imaginação do que na realidade.`,
@@ -51,31 +51,31 @@ const data = [{
 {
     quote: `É impossível para um homem aprender aquilo que ele acha que já sabe.`,
     author: `Epicteto`    
-},
+}, */
 {
     quote: `Nada de grande se cria de repente.`,
     author: `Epicteto`    
 },
-{
+/* {
     quote: `Um homem deve sempre adaptar-se às circunstâncias que o cercam e dirigir seus esforços a um novo objetivo, quando vê o anterior ser destruído.`,
     author: `Ernest Shackleton`    
-},
+}, */
 {
     quote: `A verdadeira medida de um homem não se vê na forma como se comporta em momentos de conforto e conveniência, mas em como se mantém em tempos de controvérsia e desafio.`,
     author: `Martin Luther King`    
 },
-{
-    quote: `O que me preocupa não é o grito dos maus. É o silêncio dos bons.`,
-    author: `Martin Luther King`    
-},
-{
-    quote: `Cansei-me de ser moderno. Quero ser eterno.`,
-    author: `Pablo Picasso`
-},
-{
-    quote: `Quando se navega sem destino, nenhum vento é favorável.`,
-    author: `Sêneca`
-}
+// {
+//     quote: `O que me preocupa não é o grito dos maus. É o silêncio dos bons.`,
+//     author: `Martin Luther King`    
+// },
+// {
+//     quote: `Cansei-me de ser moderno. Quero ser eterno.`,
+//     author: `Pablo Picasso`
+// },
+// {
+//     quote: `Quando se navega sem destino, nenhum vento é favorável.`,
+//     author: `Sêneca`
+// }
 ]
 
 export default data

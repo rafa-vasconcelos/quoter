@@ -10,74 +10,97 @@ body {
 }
 
 .page {
+  /* margin: 20px 0 40px 0;   */
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 nav {  
   font-size: 2.5rem;
   margin-top: -10px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  text-align: center;
 }
 
 nav>h1 {
-  display: flex;
-  justify-content: center;
   font-size: 8rem;
   font-style: normal;
 }
 
 nav>h6 {
-  font-size: 1.7rem;
+  font-size: 1.25rem;
+  margin-top: 15px;
 }
 
 .quote-block{
-  margin-top: 80px;
-  width: 1000px;
-  height: 200px;
+  margin-top: 7vh;
+  width: 70vw;
+  height: 30vh;
   font-style: italic;  
-  font-size: 2.5rem;
+  font-size: 2rem;
   /* border: 1px solid white; */
-  padding: 10px;
-  display: flex;
-  flex-direction: column;  
+  padding: 10px;    
   /* gap: 20%; */
 }
 
 .quote {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
   text-align: center;
-  /* height: 150px; */
 }
 
-.author {
-  display: flex;
-  flex-direction: column;
-  /* align-content: flex-end; */
-  align-self: flex-end;
+.author {  
   font-style: normal;
-  font-size: 2rem;
-  margin-top: 15px;
-  padding-right: 30px;
+  font-size:1.7rem;
+  margin-top: 5vh;
+  margin-right: -5px;
+  float: right;
 }
+
 
 button {
-  width: 20vw;
-  height: 10vh;
+  margin-top: 60px;
+  margin-bottom: 15px;
+  width: 220px;
+  height: 70px;
   background-color: fafafef6;
   font-family: inherit;
-  font-weight: normal;
+  font-weight: normbal;
   font-size: 1.8rem;
   font-style: normal;
   border-radius: 5px;
   border-style: none;
 }
 
+@media (max-width: 500px) {
+  .page {
+    height: auto;
+    margin-top: 8vh;
+  }
+  nav {
+    width: 65vw;
+  }
+  nav>h1 {
+    font-size: 4rem;
+  }
+  nav>h6 {
+    font-size: 1rem
+  }
+  .quote-block {
+    font-size: 3.5vh;
+    height: 25vh;
+    width: 85vw;
+  }  
+  .author {
+    font-size: 1.2rem
+  }
+  button {
+    font-size: 1.2rem;
+    height: 8vh;
+    width: 40vw;
+    margin-top: 60px;
+    margin-bottom: 0;
+  }
+}
 
 /* *:not(path):not(g) {
   color: hsla(210, 100%, 100%, 0.9) !important;
