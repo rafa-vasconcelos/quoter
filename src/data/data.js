@@ -10,7 +10,8 @@ const data = [
     author: `Sócrates`,
   },
   {
-    quote: `Às vezes ouço passar o vento; e só de ouvir o vento passar, vale a pena ter nascido.`,
+    quote: `Às vezes ouço passar o vento; 
+    e só de ouvir o vento passar, vale a pena ter nascido.`,
     author: `Fernando Pessoa`,
   },
   {
@@ -30,11 +31,13 @@ const data = [
     author: `Amyr Klink`,
   },
   {
-    quote: `Prefiro os que me criticam, porque me corrigem, aos que me elogiam, porque me corrompem.`,
+    quote: `Prefiro os que me criticam, porque me corrigem, 
+    aos que me elogiam, porque me corrompem.`,
     author: `Santo Agostinho`,
   },
   {
-    quote: `Para te contentares olha para os que possuem menos do que tu, e não para os que possuem mais.`,
+    quote: `Para te contentares olha para os que possuem menos do que tu, 
+    e não para os que possuem mais.`,
     author: `Benjamin Franklin`,
   },
   {
@@ -46,7 +49,8 @@ const data = [
     author: `Vinicius de Moraes`,
   },
   {
-    quote: `A morte não é nada para nós, pois, quando existimos, não existe a morte, e quando existe a morte, não existimos mais.`,
+    quote: `A morte não é nada para nós, pois, quando existimos, não existe a morte, 
+    e quando existe a morte, não existimos mais.`,
     author: `Epicuro`,
   },
   {
@@ -58,7 +62,8 @@ const data = [
     author: `Epicteto`,
   },
   {
-    quote: `Um homem deve sempre adaptar-se às circunstâncias que o cercam e dirigir seus esforços a um novo objetivo, quando vê o anterior ser destruído.`,
+    quote: `Um homem deve sempre adaptar-se às circunstâncias que
+     o cercam e dirigir seus esforços a um novo objetivo, quando vê o anterior ser destruído.`,
     author: `Ernest Shackleton`,
   },
   {
@@ -104,8 +109,18 @@ const data = [
     author: `Viktor Frankl`,
   },
   {
-    quote: `O homem é o filho do seu passado, mas não o seu escravo, e é o pai do seu futuro.`,
+    quote: `O homem é o filho do seu passado, 
+    mas não o seu escravo, e é o pai do seu futuro.`,
     author: `Viktor Frankl`,
+  },
+  {
+    quote: `O sábio nunca diz tudo o que pensa, mas pensa sempre tudo o que diz.`,
+    author: `Aristóteles`,
+  },
+  {
+    quote: `Se um homem pudesse ter metade dos seus desejos realizados, 
+    teria mais aflições do que prazeres.`,
+    author: `Benjamin Franklin`,
   },
 ];
 
